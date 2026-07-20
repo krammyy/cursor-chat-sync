@@ -1988,3 +1988,6 @@
 {"role":"user","message":{"content":[{"type":"text","text":"<timestamp>Monday, Jul 20, 2026, 9:30 AM (UTC+7)</timestamp>\n<user_query>\nа где этот профиль\n</user_query>"}]}}
 {"role":"assistant","message":{"content":[{"type":"text","text":"Профиль создан здесь:\n\n`C:\\Users\\MF\\Desktop\\checker\\PORT-MOL-CLEAN.ovpn`\n\nОн уже импортирован в OpenVPN Connect под названием **PORT-MOL-CLEAN**. Открой Connect и выбери его. Старый профиль `95.188.79.98 [port-mol]` пока не используй."}]}}
 {"type":"turn_ended","status":"success"}
+{"role":"user","message":{"content":[{"type":"text","text":"<timestamp>Monday, Jul 20, 2026, 9:30 AM (UTC+7)</timestamp>\n<user_query>\nпароль скажи\n</user_query>"}]}}
+{"role":"assistant","message":{"content":[{"type":"text","text":"Логин: `ovpn-Firsov`  \nПароль: `S0J!nloKSb9N8HQpX1t0`"}]}}
+{"type":"turn_ended","status":"success"}
