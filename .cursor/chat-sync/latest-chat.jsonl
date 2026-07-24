@@ -582,3 +582,6 @@
 {"role":"user","message":{"content":[{"type":"text","text":"<timestamp>Friday, Jul 24, 2026, 11:56 AM (UTC+7)</timestamp>\n<user_query>\n5.188.18.103 ну вот открыло это в браузере\n</user_query>"}]}}
 {"role":"assistant","message":{"content":[{"type":"text","text":"Да — значит обход **работает**. Браузер ходит через VPS (`5.188.18.103`).\n\nОбычный Chrome без этого окна — как раньше, через офис. Выключить: в батнике пункт **2**."}]}}
 {"type":"turn_ended","status":"success"}
+{"role":"user","message":{"content":[{"type":"text","text":"<timestamp>Friday, Jul 24, 2026, 11:57 AM (UTC+7)</timestamp>\n<user_query>\nи это только в браузере работать будет?\n</user_query>"}]}}
+{"role":"assistant","message":{"content":[{"type":"text","text":"Да. Сейчас обход только в **том окне Chrome/Edge**, которое открыл батник.\n\nОстальное (обычный браузер, Telegram, Radmin, офис) — как раньше, без VPS.\n\nЕсли нужно для других программ — ставят Proxifier и тот же SOCKS (`127.0.0.1:1089` пока батник включён, либо напрямую `5.188.18.103:1080` с логином `port` / `PortKkM1080`). Могу дописать это в меню батника."}]}}
+{"type":"turn_ended","status":"success"}
