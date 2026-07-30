@@ -907,3 +907,6 @@
 {"role":"user","message":{"content":[{"type":"text","text":"<timestamp>Thursday, Jul 30, 2026, 4:53 PM (UTC+7)</timestamp>\n<user_query>\n95.188.79.98 - это другой комп\n</user_query>"}]}}
 {"role":"assistant","message":{"content":[{"type":"text","text":"Понял, принял.\n\n`26.213.1.80` (куда я подключался) сейчас выходит в интернет как `95.188.79.98`, поэтому я и видел этот IP в логах MTProto.  \nЕсли это **другой** ПК, значит нужен его адрес для точной проверки.\n\nПришли для проблемного ПК:\n- его `Radmin`/VPN IP (`26.x.x.x`)\n- его локальный IP (`192.168.x.x`)\n- логин/пароль (если хочешь, чтобы я подключился туда по WinRM так же)\n\nТогда проверю именно его, без рестартов прокси.\n\n**Clarifying target IP and diagnostics**"}]}}
 {"type":"turn_ended","status":"success"}
+{"role":"user","message":{"content":[{"type":"text","text":"<timestamp>Thursday, Jul 30, 2026, 4:54 PM (UTC+7)</timestamp>\n<user_query>\nсорян, зря быканул, все верно\n</user_query>"}]}}
+{"role":"assistant","message":{"content":[{"type":"text","text":"Все норм 👌\n\nТогда остаёмся на текущем:\n- основной MTProto: `5.188.18.103:8443`\n- тестовый/обходной для медиа: `5.188.18.103:9443`\n- ничего не ронял, оба сервиса живые.\n\nЕсли хочешь, могу дальше аккуратно добить именно проблему с картинками (точечно, без падения прокси для остальных)."}]}}
+{"type":"turn_ended","status":"success"}
